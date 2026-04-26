@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Mono&display=swap');
+
+:root {
+    --navy-deep:   #0A0F1E;
+    --navy-mid:    #0D1630;
+    --navy-card:   #111E3A;
+    --navy-border: #1C2E52;
+    --gold:        #F0B429;
+    --gold-light:  #FFD97D;
+    --gold-dim:    #A07820;
+    --text-bright: #E8EEF8;
+    --text-muted:  #7A8BAD;
+    --accent-blue: #3B7DD8;
+}
+
+body {
+    background: var(--navy-deep) !important;
+    font-family: 'Outfit', sans-serif !important;
+    color: var(--text-bright) !important;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.weather-header h1 {
+    font-size: 2.5rem;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.weather-header p {
+    color: var(--text-muted);
+}
